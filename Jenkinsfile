@@ -5,7 +5,7 @@ pipeline {
          }
     }
 environment {
-    PATH = "/usr/share/maven:$PATH"
+    PATH = "/usr/share/maven/bin:$PATH"
 }
     
     stages {
